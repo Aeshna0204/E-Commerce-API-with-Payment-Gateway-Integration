@@ -71,7 +71,19 @@ for getting all the orders - get request
 ```
 http://localhost:8000/orders/orders/
 ```
-for getting products by user - get request
+for getting orders by user - get request
 ```
 http://localhost:8000/orders/orders/my-orders
+```
+For creating payment - user acess only
+```
+http://localhost:8000/payments/create-payment/{order_id}
+```
+For executing payment - user acess only
+```
+http://localhost:8000/payments/execute-payment/{order_id}
+```
+For canceling payment - user acess only
+```
+http://localhost:8000/payments/cancel
 ```
