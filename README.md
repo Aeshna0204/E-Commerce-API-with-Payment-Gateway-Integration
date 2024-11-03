@@ -9,6 +9,7 @@ This is a FastAPI-based backend for a E-commerce Api developement and PayPal pay
 - [Project Setup](#project-setup)
 - [API Endpoints](#api-endpoints)
 - [Dependencies](#dependencies)
+- [Configurations](#configurations)
 
 ---
 
