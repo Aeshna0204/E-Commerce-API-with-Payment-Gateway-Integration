@@ -87,3 +87,17 @@ For canceling payment - user acess only
 ```
 http://localhost:8000/payments/cancel
 ```
+## Dependencies
+- uvicorn
+- python
+- FastAPI
+- sqlalchemy
+- psycopg2-binary
+- pydantic
+- alembic
+
+## Configurations
+- DATABASE_URL=postgresql://username:password@localhost:5432/dbname
+- PAYPAL_CLIENT_ID=your_paypal_client_id
+- PAYPAL_CLIENT_SECRET=your_paypal_client_secret
+- PAYPAL_MODE="sandbox"
