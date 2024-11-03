@@ -63,3 +63,15 @@ for getting products by id - get request
 http://localhost:8000/products/products/{product_id}
 ```
 
+For creating order - post request {user acess only}
+```
+http://localhost:8000/orders/orders/
+```
+for getting all the orders - get request
+```
+http://localhost:8000/orders/orders/
+```
+for getting products by user - get request
+```
+http://localhost:8000/orders/orders/my-orders
+```
